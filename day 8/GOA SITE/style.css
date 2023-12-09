@@ -1,6 +1,4 @@
-body {
-    background-color: white;
-}
+
 button {
     position: absolute;
     padding: 20px 60px;
@@ -16,4 +14,15 @@ button {
     cursor: pointer;
     text-align: center;
   } */
-  
+  body {
+    background-image: url("https://img.freepik.com/free-vector/gradient-christmas-tinsel-background_52683-76117.jpg?size=626&ext=jpg&ga=GA1.1.1222169770.1701993600&semt=ais");
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+     }
+.paragraph {
+    color: yellow;
+}
+.heading {
+    color: yellow;
+}
