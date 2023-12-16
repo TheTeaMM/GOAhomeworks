@@ -11,3 +11,9 @@ body {
 .paragraph1 {
  color: blue;
 }
+.myDiv {
+  border: 5px outset black;
+  background-color: blue;    
+  text-align: center; }
+
+   
