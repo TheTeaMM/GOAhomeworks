@@ -19,7 +19,7 @@ button {
     background-repeat: no-repeat;
     background-size: cover;
  
-     }
+}
 .paragraph {
     color: yellow;
 }
@@ -33,8 +33,40 @@ button {
 }
 .my-text {
    color: red;
-   
+   text-align: right;
 
 }
-.PythonLogo {
+.img-hover-zoom { 
+    overflow:hidden;  
+    width: 300px;
+    height: 300px;
+    
+}
+.img-hover-zoom img { 
+    transition: transform .5s ease; 
+    width: 100%;
+    height: 100%;
+}
+.img-hover-zoom:hover img {
+     transform: scale(1.5); 
+    
+    }
+.heading1 {
+    text-align: center;
+    color: greenyellow
+}
+.tyeshel {
+    overflow:hidden;  
+    width: 300px;
+    height: 300px;
+    
+}
+.tyeshel img{
+    transition: transform .5s ease; 
+    width: 100%;
+    height: 100%;
+}
+.tyeshel:hover img {
+    transform: scale(1.5); 
+    
 }
