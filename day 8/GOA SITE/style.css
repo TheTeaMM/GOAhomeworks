@@ -26,3 +26,15 @@ button {
 .heading {
     color: yellow;
 }
+.mydiv {
+    border: 10px outset black;
+    background: green;
+    text-align: center; 
+}
+.my-text {
+   color: red;
+   
+
+}
+.PythonLogo {
+}
