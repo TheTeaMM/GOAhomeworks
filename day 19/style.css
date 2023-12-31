@@ -1,0 +1,36 @@
+table, th, td {
+    border:1px solid black;
+    
+  }
+  td:nth-child(1) {
+    background-color: greenyellow;
+ 
+ }
+ td:nth-child(2) {
+    background-color: greenyellow;
+ 
+ }
+ td:nth-child(3) {
+    background-color: greenyellow;
+ 
+ }
+ td:nth-child(4) {
+    background-color: greenyellow;
+ 
+ }
+ th:nth-child(1) {
+    background-color: red;
+ 
+ }
+ th:nth-child(2) {
+    background-color: red;
+ 
+ }
+ th:nth-child(3) {
+    background-color: red;
+ 
+ }
+ th:nth-child(4) {
+    background-color: red;
+    
+ }

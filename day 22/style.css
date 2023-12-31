@@ -1,0 +1,9 @@
+table, th, td {
+    border:1px solid black;
+   border-collapse: collapse;
+  }
+ 
+
+
+tr:nth-child(2) {background-color: greenyellow }
+tr { background-color: green}

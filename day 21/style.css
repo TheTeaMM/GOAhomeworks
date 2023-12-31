@@ -1,0 +1,15 @@
+table, th, td {
+    border:1px solid black;
+    
+  }
+td:nth-child(1) {
+   background-color: yellow;
+
+}
+
+table {
+    outline: auto;
+}
+tr:nth-child(even) {background-color: aquamarine}
+tr:nth-child(odd) {background-color: aqua}
+th {background-color: blue }

@@ -1,0 +1,48 @@
+table, th, td {
+    border:1px solid black;
+    
+  }
+td:nth-child(1) {
+   background-color: greenyellow;
+
+}
+td:nth-child(2) {
+    background-color: green;
+ 
+ }
+ td:nth-child(3) {
+    background-color: goldenrod;
+ 
+ }
+ td:nth-child(4) {
+    background-color: orange;
+ 
+ }
+ td:nth-child(5) {
+    background-color: red;
+ 
+ }
+table {
+    outline: auto;
+}
+th:nth-child(1) {
+    background-color: navajowhite;
+ 
+ }
+ th:nth-child(2) {
+    background-color: navajowhite;
+ 
+ }
+ th:nth-child(3) {
+    background-color: navajowhite;
+ 
+ }
+
+ th:nth-child(4) {
+    background-color: navajowhite;
+ 
+ }
+ th:nth-child(5) {
+    background-color: navajowhite;
+ 
+ }
