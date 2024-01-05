@@ -68,6 +68,6 @@ button {
 .heading3 {
     
 }
-.body {
-    background-image: linear-gradient(to right, red, green);
+body {
+    background-image: linear-gradient(to right, greenyellow, green, red);
 }
