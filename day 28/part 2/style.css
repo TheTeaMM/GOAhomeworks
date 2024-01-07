@@ -1,0 +1,18 @@
+.tyeshel {
+    overflow:hidden;  
+    width: 300px;
+    height: 300px;
+    
+}
+.tyeshel img{
+    transition: transform .5s ease; 
+    width: 100%;
+    height: 100%;
+}
+.tyeshel:hover img {
+    transform: scale(1.5); 
+    
+}
+body {
+    background-image: linear-gradient(to right, yellow, green, red);
+}

@@ -1,0 +1,52 @@
+body {
+    background-color: hsl(47, 88%, 63%) 
+
+}
+.attribution {
+    padding: 10px;
+    border:5px solid black;
+    font-size:15px;
+    background-color:hsl(0, 0%, 100%);
+    width:291px;
+    height:400px;
+    box-shadow:20px;
+    border-radius: 20px;
+    
+
+}
+.learning {
+    font-size: 16px;
+    display:inline;
+    margin-bottom:100px;
+    border:5px solid hsl(47, 88%, 63%);
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 10%;
+
+}
+.img {
+    margin-bottom: 20px;
+    border-radius:20px;
+}
+.Published {
+    font-size:10px;
+    
+}
+.HTMLCSS {
+    font-size:20px;
+}
+.Text {
+    font-size:15px
+}
+.men {
+    height:30px;
+    width:30px;
+    
+}
+span {
+   text-align:center;
+}
+.div2 {
+    display:flex;
+    align-items:center;
+    margin-top:20px
+}
