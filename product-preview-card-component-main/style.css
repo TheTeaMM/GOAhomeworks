@@ -1,0 +1,56 @@
+.container {
+   height:400px;
+   width: 600px;
+   border-radius: 20px;
+   border:2px;
+   
+}
+body {
+    background: hsl(30, 38%, 92%);
+}
+img {
+       border-radius: 20px;
+}
+.text2 {
+    display:inline;
+    position: fixed;
+    left:500px;
+    
+}
+.text3 {
+    display:inline;
+    position: fixed;
+    left:500px;
+    margin-top:90px;
+}
+.text4 {
+    display:inline;
+    position: fixed;
+    left:500px;
+    margin-top:170px;
+}
+.text5 {
+    display:inline;
+    position: fixed;
+    left:500px;
+    margin-top:400px;
+    color:green;
+}
+.text6 {
+    display:inline;
+    position: fixed;
+    left:500px;
+    margin-top:400px;
+    margin-left:120px;
+    text-decoration: line-through;
+    color:grey;
+}
+.b {
+    border:solid green;
+    border-radius: 20px;
+    background-color: green;
+    position: fixed;
+    left:500px;
+    width:200px;
+    
+}

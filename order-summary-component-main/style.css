@@ -1,0 +1,59 @@
+
+body {
+  background-color: hsl(224, 23%, 55%);
+ 
+}
+.girl {
+  margin-top:20px;
+  border:20px;
+  border-radius: 20px;
+  height:250px;
+  width:450px;
+  margin-top:1px;
+
+}
+.container {
+  background-color: white;
+  width:450px;
+  height:600px;
+  border-radius: 20px;
+}
+.text {
+  font-size: 16px;
+}
+
+.text1 {
+  font-size:16px;
+  display:flex;
+  align-items:flex-end;
+}
+.text2 {
+  font-size:16px;
+  display:flex;
+  align-items:flex-end;
+}
+
+.div3 {
+  border-radius: 20px;
+  background-color: hsl(225, 100%, 98%);
+  display:flex;
+  align-items:center;
+  margin:0 20px;
+  justify-content: space-between;
+  padding:10px 40px;
+  
+}
+.div2 {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+.Button1 {
+  border:15px solid darkblue;
+  border-radius: 15px;
+  background-color: darkblue;
+  font-size:20px;
+  color:white;
+  
+
+}
