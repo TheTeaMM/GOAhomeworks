@@ -1,0 +1,49 @@
+body {
+   background-color: hsl(217, 54%, 11%);
+}
+.container {
+    border:15px solid hsl(216, 50%, 16%);
+    border-radius:20px;
+    width:350px;
+    height:600px;
+    background-color: hsl(216, 50%, 16%);;
+}
+
+.img1 {
+    border-radius:20px;
+    width:350px;
+    height: 400px;
+}
+.t1 {
+    font-size:20px;
+    color:white;
+}
+.t2 {
+    position:fixed;
+    top:520px;
+    left:50px;
+    font-size:20px;
+    color:aqua;
+}
+.i2 {
+    position:fixed;
+    left:250px;
+}
+.t3 {
+    position: fixed;
+    left:270px;
+    bottom:160px;
+    font-size:20px;
+    color:hsl(215, 32%, 27%);
+
+}
+.i3 {
+  width:50px;
+}
+.t4 {
+    font-size:15px;
+    color:white;
+    position: fixed;
+    left:90px;
+    top:580px;
+}
