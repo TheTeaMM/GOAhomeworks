@@ -1,0 +1,143 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+
+.container {
+
+
+}
+.c2 {
+    border:20px solid hsl(31, 77%, 52%);
+    width:400px;
+    height:500px;
+    border-radius: 20px;
+    background-color: hsl(31, 77%, 52%);
+}
+.t1 {
+    font-size:30px;
+    position: relative;
+    left: 20px;
+    color:white;
+    font-family:Lexend Deca;
+}
+.p1 {
+    font-size:20px;
+    font-family:Lexend Deca;
+}
+.b1 {
+    border:15px white solid;
+    border-radius: 20px;
+    background-color: white;
+    width:120px;
+    position: relative;
+    top:150px;
+
+}
+.c3 {
+    border:20px solid hsl(184, 100%, 22%);
+    width:400px;
+    height:500px;
+    border-radius: 20px;
+    background-color: hsl(184, 100%, 22%);
+    position: relative;
+    bottom: 540px;
+    left:440px;
+}
+.t2 {
+    font-size:30px;
+    position: relative;
+    left: 20px;
+    color:white;
+    font-family:Lexend Deca;
+}
+.i1:hover {
+    transform: scale(1.50);
+    transition: 0.5s;
+}
+.i2:hover {
+    transform: scale(1.50);
+    transition: 0.5s;
+}
+.b1:hover {
+    transform: scale(1.20);
+    transition: 0.5s;
+    font-family:Lexend Deca;
+}
+.t2 {
+    font-size:30px;
+    position: relative;
+    left: 20px;
+    color:white;
+    font-family:Lexend Deca;
+}
+.p2 {
+    font-size:20px;
+    font-family:Lexend Deca;
+    cursor: pointer;
+}
+.t01 {
+    font-size:20px;
+    font-family:Lexend Deca;
+    cursor: pointer;
+}
+.b2 {
+    border:15px white solid;
+    border-radius: 20px;
+    background-color: white;
+    width:120px;
+    position: relative;
+    top:130px;
+    left:5px;
+    font-family:Lexend Deca;
+
+}
+.b2:hover {
+    transform: scale(1.20);
+    transition: 0.5s;
+    font-family:Lexend Deca;
+}
+.t02 {
+    font-size:20px;
+
+}
+
+.c4 {
+    border:20px solid hsl(179, 100%, 13%);
+    width:400px;
+    height:500px;
+    border-radius: 20px;
+    background-color: hsl(179, 100%, 13%);
+    position: relative;
+    bottom: 1080px;
+    left:880px;
+}
+.i3:hover {
+    transform: scale(1.50);
+    transition: 0.5s;
+}
+.p4 {
+    font-size:20px;
+    font-family:Lexend Deca;
+    cursor: pointer;
+}
+.t4 {
+    color: white;
+    font-family:Lexend Deca;
+    cursor: pointer;
+}
+.b4 {
+    border:15px white solid;
+    border-radius: 20px;
+    background-color: white;
+    width:120px;
+    position: relative;
+    top:130px;
+    left:5px;
+    font-family:Lexend Deca;
+
+}
+.b4:hover {
+    transform: scale(1.20);
+    transition: 0.5s;
+    font-family:Lexend Deca;
+}
