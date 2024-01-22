@@ -1,0 +1,72 @@
+body {
+    background-color: orangered;
+}
+
+.h1 {
+
+        color: aliceblue;
+        animation-name: anim1;
+        animation-duration: 5s;
+        position: relative;
+        left:400px;
+   
+  }
+  
+  @keyframes anim1{
+        
+    0%{
+        position: relative;
+        left: 400px;
+        top: 0px;
+        opacity: 0;
+    }
+
+    100%{
+         position: relative; 
+         top: 150px;
+         
+            
+    }
+
+}
+
+.h2 {
+    color: aliceblue;
+    animation-name: anim2;
+    animation-duration: 5s;
+    position: relative;
+    
+}
+@keyframes anim2 {
+    0%{
+        position: relative;
+        left: 100px;
+        top: 0px;
+        opacity: 0;
+    }
+
+    100%{
+         position: relative; 
+         top:200px;
+         left:px;
+         
+            
+    }
+}
+div {
+    border: 15px solid;
+    border-radius: 5px;
+    width:30px;
+    height:20px;
+    background-color: black;
+    animation-duration: 5s;
+    
+/* 
+        padding: 0 40px;
+        height: 250px;
+        max-width: 1750px;
+        line-height: 1.5;
+        animation-name: contentAnimation;
+        animation-duration: 5s;
+        animation-fill-mode: forwards; */
+}

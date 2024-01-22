@@ -1,0 +1,36 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Montserrat&display=swap');
+
+
+body {
+    background-color: slategray;
+
+}
+.d1 {
+  
+}
+.i1 {
+    /* border-radius: 100px; */
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 1000px;
+    transition: 0.5s;
+}
+.i1:hover {
+    transform: rotate(180deg);
+    
+}
+.h1 {
+    position: relative;
+    bottom: 200px;
+    font-family: Montserrat;
+    font-size: 25px;
+    left:70px;
+}
+.h2 {
+    font-family: Montserrat;
+    font-size:15px;
+    position: relative;
+    bottom: 200px;
+}
