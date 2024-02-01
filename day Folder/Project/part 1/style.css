@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Inter:wght@800&family=Montserrat&family=Oswald&display=swap');
+
+
+
+body {
+    background-color: hsl(0, 0%, 28%);
+    overflow-x: hidden;
+    margin:0;
+  }
+.pr {
+  background-color: ghostwhite ;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left:650px;
+  top:200px;
+  border-radius: 20px;
+  color: black;
+  text-decoration: none;
+}
+.p1 {
+    font-family: Oswald;
+    font-size: 20px;
+    position: relative;
+    left:30px;
+    
+}
