@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Inter:wght@800&family=Lexend+Deca:wght@100..900&family=Montserrat&family=Oswald&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('gif/com.gif');
+    background-size: cover;
+    height: 100vh;
+  
+  }
+ /* Container and Glass Animation */
+.container{
+    width: 500px;
+    height: 300px;
+    
+}
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    position: relative;
+    left: 50px;
+    top:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+  .glass {
+    animation: slide-in 0.7s both;
+  }
+  
+  @keyframes slide-in {
+    0% {
+      transform: translateY(-1000px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  /* End of Animations */
+
+  /* Starting Edit Div(Container Glass) */
+.p1 {
+    font-size: 20px;
+    font-family: Lexend Deca;
+}
+/* end :d */
+/* Creating Bottom Part of Our site */
+/* Create Class hd = header div */
+.hd {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 200px 200px;
+    grid-template-areas: 
+
+    ' header header header'
+    ' footer footer footer'
+   ;
+   border: black solid;
+    overflow-y:hidden;
+   width: 1531px;
+   height: 110px;
+   background-color:  hsl(288, 67%, 43%);
+
+}
+
+header {
+    grid-area: header;
+}
+footer{
+    width: 1531px;
+    height: 150px;
+    border: solid black;
+    background-color: hsl(288, 67%, 43%);
+}
+.i1 {
+    width: 700px;
+    height: 400px;
+    border: black solid;
+    position: relative;
+    left:800px
+}
+/* Creating New Glass */
+.container{
+    width: 500px;
+    height: 300px;
+   
+ 
+}
+.glass2{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    position: relative;
+    left: 50px;
+    bottom: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    animation: slide-in2 0.7s both;
+}
+
+  
+  @keyframes slide-in2 {
+    0% {
+      transform: translateY(+1000px);
+    }
+    100% {
+      transform: translateY(-);
+    }
+  }
+
+.p2 {
+  font-size: 20px;
+  font-family: Lexend Deca;
+} 
+/* Editing Button Youtube and Footer */
+.you {
+  width: 100px;
+  height: 90px;
+  position: relative;
+  left: 100px;
+  top:20px;
+  transition: 2s;
+}
+.you:hover {
+   transform: scale(1.1);
+}
+/* p3 */
+.p3 {
+  font-family: Lexend Deca;
+  position: relative;
+  left:85px
+}
+/* Header edit 2.0 */
+.buttonheader {
+  border: black solid;
+  width: 200px;
+  height: 100px;
+  border-radius: 20px;
+  color: white;
+  font-family: Lexend Deca;
+  transition: 2s;
+  position: relative;
+  bottom: 105px;
+  left:20px;
+  background-color: hsl(288, 67%, 43%);
+}
+.buttonheader:hover{
+  transform: rotate(360deg);
+  
+}
+.start_learn {
+  position: relative;
+  left:40px;
+  top:30px;
+  font-size: 20px;
+}
+.AboutUsButton {
+  border: black solid;
+  width: 200px;
+  height: 100px;
+  border-radius: 20px;
+  color: white;
+  font-family: Lexend Deca;
+  transition: 2s;
+  position: relative;
+  bottom: 205px;
+  left:250px;
+  background-color: hsl(288, 67%, 43%);
+}
+.AboutUsButton:hover{
+  transform: rotate(360deg);
+  
+}
+.aboutus{
+  position: relative;
+  left:50px;
+  top:30px;
+  font-size: 20px;
+}

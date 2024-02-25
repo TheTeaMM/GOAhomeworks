@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Inter:wght@800&family=Lexend+Deca:wght@100..900&family=Montserrat&family=Oswald&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: blanchedalmond;
+    font-family: Lexend Deca;
+}
+.Welcome {
+    border:20px sandybrown solid;
+    border-radius: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: sandybrown;
+    position: relative;
+    left: 600px;
+    top:100px;
+    font-family: Lexend Deca;
+}
+.speech {
+    position: relative;
+    left:90px;
+    
+}
+.Giorgi_Gakharia{
+    width: 200px;
+    height: 250px;
+}
+.David_Bakradze {
+    width: 200px;
+    height: 250px;
+}
+.Giorgi_Vashadze {
+    width: 200px;
+    height: 250px;
+
+}
+.candidates {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top:200px;
+    font-family: Lexend Deca;
+}

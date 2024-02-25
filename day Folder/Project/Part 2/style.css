@@ -140,3 +140,15 @@
   width: 100px;
   height:130px;
 }
+.you {
+  width: 100px;
+  height: 80px;
+}
+.youp {
+  font-family: Oswald;
+  position: relative;
+  bottom:100px;
+  left:230px;
+  font-size: 25px;
+  color: white;
+}

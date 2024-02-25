@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Inter:wght@800&family=Lexend+Deca:wght@100..900&family=Montserrat&family=Oswald&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('gif/com.gif');
+    background-size: cover;
+    height: 100vh;
+  
+  }
+.Choose-your-road {
+    border: solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    position: relative;
+    left:350px;
+    top:100px;
+    background-color: blueviolet;
+    font-size: 20px;
+    font-family: Lexend Deca;
+    transition: 2s;
+}
+.Choose-your-road-2 {
+    border: solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    position: relative;
+    left:850px;
+    bottom: 199px;
+    background-color: blueviolet;
+    font-size: 20px;
+    font-family: Lexend Deca;
+    transition: 2s;
+}
+
+.Choose-your-road:hover {
+    background-color: darkmagenta;
+}
+.Choose-your-road-2:hover{
+    background-color: darkmagenta;
+}
+.choice {
+    font-size: 20px;
+    font-family: Lexend Deca;
+    color:White;
+    transition: 2s;
+    
+}
+.choice:hover{
+    color:purple
+}
