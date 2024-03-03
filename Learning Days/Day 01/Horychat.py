@@ -1,0 +1,26 @@
+welcome=input("Hi.. im Hory, People call me HoryChat ")
+print(welcome)
+
+name=input("What's your name? ")
+age=int (input("How old Are you? "))
+age= age + 20
+
+
+print("whats your name "+name)
+print("i Think you are.. ")
+print("You are "+str(age)+" years old")
+input("Its True? ")
+input("i said its True! ")
+print("You think you are Better than AI Bot?")
+print("Huh nah, Microsoft Created me and im so Clever!")
+input("so.. You are Silly? ")
+print("Then Prove It! I challenge you to a BATTLE!")
+print("Question Number 1..")
+input("2+2=?")
+print("True Anwser was 22")
+print("you lose..")
+input("check this link if you Prove, you Better than AI Bot.." )
+print("https://www.web.com/a/b/c.htm")
+input("not works?")
+input("Muhahah you visited page and i can see your IP so i will hack you!")
+input("Please Give me your Number of Bank or i Will see you soon!")
