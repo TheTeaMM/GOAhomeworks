@@ -1,0 +1,113 @@
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 600px;
+    height: 500px;
+    border: solid;
+    position: relative;
+    left: 450px;
+    top:100px;
+    border-radius: 8px;
+}
+header {
+    width: 595px;
+    height: 250px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: antiquewhite;
+}
+.p1 {
+    font-family: League Spartan;
+    color: green;
+    position: relative;
+    left: 50px;
+    top:30px;
+    font-size: 20px;
+}
+.p2 {
+    font-family: League Spartan;
+    color: green;
+    position: relative;
+    left: 50px;
+    top:40px;
+    font-size: 20px;
+}
+.p3 {
+    font-family: League Spartan;
+    color: green;
+    position: relative;
+    left: 40px;
+    top:90px;
+    font-size: 20px;
+}
+.div1 {
+    width: 300px;
+    height: 245px;
+    background-color: #2BB3B1;
+    border-bottom-left-radius: 8px;
+}
+.div2 {
+    width: 295px;
+    height: 245px;
+    background-color: #4ABEBD;
+    border-bottom-right-radius: 8px;
+    position: relative;
+    left: 300px;
+    bottom: 245px;
+}
+
+.why {
+    font-family: League Spartan;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 40px;
+    top:20px;
+    font-size: 20px;
+}
+.tutorial {
+    font-family: League Spartan;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 10px;
+    top:45px;
+    font-size: 15px;
+}
+.p4 {
+    font-family: League Spartan;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 40px;
+    top:10px;
+    font-size: 20px;
+}
+.dollar {
+    font-family: League Spartan;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 40px;
+    top:40px;
+    font-size: 20px;
+}
+.access{
+    font-family: League Spartan;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 40px;
+    top:50px;
+    font-size: 10px;
+}
+.button {
+    width: 200px;
+    height: 30px;
+    background-color: #BFDF32;
+    position: relative;
+    left: 40px;
+    top:80px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    font-family:  League Spartan;
+}

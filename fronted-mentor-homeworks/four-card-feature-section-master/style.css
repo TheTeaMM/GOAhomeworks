@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.p1 {
+    font-family: League Spartan;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.p2 {
+    font-family: Poppins;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+}
+.p3 {
+    font-family: League Spartan;
+    font-size:15px;
+    display: flex;
+    justify-content: center;
+}
+.div1 {
+    width: 400px;
+    height: 200px;
+    border:solid 6px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    position: relative;
+    left: 560px;
+}
+.p4 {
+    font-family: Poppins;
+    position: relative;
+    left: 20px;
+}
+.p5 {
+    font-family: Poppins;
+    position: relative;
+    left: 20px;
+    
+}
+.icon1 {
+    position: relative;
+    left: 300px;
+    top:30px
+}
+.div2 {
+    width: 400px;
+    height: 200px;
+    border:solid 6px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    position: relative;
+    left: 120px;
+}
+.p6 {
+    font-family: Poppins;
+    position: relative;
+    left: 20px;
+}
+.p7 {
+    font-family: Poppins;
+    position: relative;
+    left: 20px;
+}
+.icon2 {
+    position: relative;
+    left: 300px;
+    top:30px
+}
+.div3{
+    width: 400px;
+    height: 200px;
+    border:solid 6px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    position: relative;
+    bottom: 200px;
+    left: 1000px;
+}
+.p8 {
+    font-family: Poppins;
+    position: relative;
+    left: 20px;
+}
+.p9 {
+    font-family: Poppins;
+    position: relative;
+    left: 20px;  
+}
+.icon3 {
+    position: relative;
+    left: 300px;
+    top:30px
+}
+.div4 {
+    width: 400px;
+    height: 200px;
+    border:solid 6px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    position: relative;
+    bottom: 200px;
+    left: 565px;
+}
+.p10 {
+    font-family: Poppins;
+    position: relative;
+    left: 20px;
+}
+.p11 {
+    font-family: Poppins;
+    position: relative;
+    left: 20px;  
+}
+.icon4 {
+    position: relative;
+    left: 300px;
+    top:30px
+}
