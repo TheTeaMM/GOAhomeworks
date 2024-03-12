@@ -111,3 +111,18 @@ header {
     justify-content: center;
     font-family:  League Spartan;
 }
+@media only screen and ( max-width: 430px ) {
+   .container {
+    right: 450px;
+    top:100px;
+  
+   }
+   .div1 {
+    position: relative;
+    right: 500px;
+   }
+   .div2 {
+    position: relative;
+    right:500px;
+   }
+}
