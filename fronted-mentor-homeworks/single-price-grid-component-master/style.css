@@ -119,10 +119,17 @@ header {
    }
    .div1 {
     position: relative;
-    right: 500px;
+    right: 400px;
+    border-radius: 0px;
    }
    .div2 {
     position: relative;
-    right:500px;
+    right:200px;
+    border-bottom-right-radius: 8px;
+   }
+   header {
+    position: relative;
+    right: 400px;
+    width: 300px;
    }
 }
