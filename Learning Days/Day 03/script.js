@@ -1,17 +1,24 @@
+// let year = prompt('When was War of Didgori?', );
+// if (year < 1121) {
+//     alert('This is too early...')
+// }
+// else if (year > 1121){
+//     alert('Its a little late')
+// }
+// else {
+//     alert('Thats right, It seems you are a real historical man!')
+// }
 
-document.getElementById("send-button").addEventListener("click", function() {
-    var messageInput = document.getElementById("message-input");
-    var message = messageInput.value.trim();
-    if (message !== "") {
-        sendMessage(message);
-        messageInput.value = "";
-    }
-});
-
-function sendMessage(message) {
-    var chatMessages = document.getElementById("chat-messages");
-    var messageElement = document.createElement("div");
-    messageElement.textContent = message;
-    chatMessages.appendChild(messageElement);
-    chatMessages.scrollTop = chatMessages.scrollHeight;
+// მომხმარებელეს შემოატანინეთ 2 რიცხვი,
+//  თუ პირველი რიცხვი მეტია მეორე რიცხვზე, მაშინ გამოიტანეთ 'პირველი რიცხვი არის მეორე რიცხვზე მეტი', 
+//  თუ მეორე რიცხვი არის მეტი პირველ რიცხვზე, მაშინ გამოიტანეთ 'მეორე რიცხვი მეტია პირველზე', 
+// ხოლო თუ ეს ორი რიცხვი ერთმანეთის ტოლია მაშინ გამოიტანეთ 'ეს რიცხვები ერთმანეთის ტოლია!'
+if (30 > 30) {
+    console.log('პირველი რიცხვი არის მეორე რიცხვზე მეტი')
+}
+else if (30 < 30) {
+    console.log('მეორე რიცხვი მეტია პირველზე')
+}
+else {
+    console.log('ეს რიცხვები ერთმანეთის ტოლია!')
 }
