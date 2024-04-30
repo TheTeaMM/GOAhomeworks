@@ -16,3 +16,6 @@ user1.name = "Buba"
 user1.surname = "Ebraldze"
 user1.age = 12
 user1.adress = "Angisa"
+
+let b = Number(prompt('tell me your name and i will ad to it "s"'))
+alert('c+d')
