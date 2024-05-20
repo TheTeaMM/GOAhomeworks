@@ -1,0 +1,46 @@
+body {
+    background-color: #13162B;
+}
+.div1 {
+    background-color: #0083F7;
+    height: 350px;
+    width: 250px;
+    border-radius: 20px;
+    position: relative;
+    left: 600px;
+    top: 200px;
+}
+.div2 {
+    background-color: #161D59;
+    height: 250px;
+    width: 350px;
+    border-radius: 20px;
+    position: absolute;
+    left: 563px;
+    top: 250px;
+}
+.btns {
+    background-color: #0083F7;
+    position: relative;
+    left: 90px;
+    top: 200px;
+    width: 50px;
+    height: 50px;
+}
+.btns{
+    color: white;
+    background-color: #0083F7;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.btns:hover{
+    background-color: hsl(214, 86%, 71%)
+}
+#countlbl {
+    position: relative;
+    left: 180px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    color: white;
+}
