@@ -19,3 +19,23 @@
     position: relative;
     left: 140px;
 }
+
+#btn2 {
+    background-color: blanchedalmond;
+    border: solid;
+    width: 300px;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50px;
+    transition: transform 1.1s ease-in-out;
+}
+#btn2:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#p2{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 115px;
+}

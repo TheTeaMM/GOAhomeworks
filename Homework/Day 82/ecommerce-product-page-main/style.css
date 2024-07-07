@@ -107,6 +107,7 @@
     bottom: 390px;
     font-family: Kumbh Sans;
     font-size: 23px;
+    text-decoration: line-through;
 }
 #product12{
     border-radius: 8px;
@@ -137,4 +138,50 @@
     position: relative;
     left: 450px;
     bottom: 390px;
+}
+
+#rslt {
+    width: 50px;
+    height: 50px;
+    border: rgb(247,248,253) solid;
+    position: relative;
+    left: 955px;
+    bottom: 545px;
+    font-size: 30px;
+    background-color: rgb(247,248,253);
+    font-family: Kumbh Sans;
+}
+#plus {
+    width: 50px;
+    height: 50px;
+    border: rgb(247,248,253) solid;
+    position: relative;
+    left: 1000px;
+    bottom: 600px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size: 30px;
+    background-color: rgb(247,248,253);
+    font-family: Kumbh Sans;
+}
+#minus {
+    width: 50px;
+    height: 50px;
+    border: rgb(247,248,253) solid;
+    position: relative;
+    left: 900px;
+    bottom: 490px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-size: 30px;
+    background-color: rgb(247,248,253);
+    font-family: Kumbh Sans;
+    
+}
+#cart {
+    background-color: #FF7D1B;
+    border-radius: 20px;
+    border: solid black;
+    width: 50px;
+    height: 20px;
 }
