@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+#Sneakers{
+    font-family: Kumbh Sans;
+    font-size: 30px;
+    position: relative;
+    left: 100px;
+    top:20px;
+}
+#Collections{
+    font-family: Kumbh Sans;
+    font-size: 15px;
+    position: relative;
+    left: 300px;
+    bottom: 15px;
+}
+#Men{
+    font-family: Kumbh Sans;
+    font-size: 15px;
+    position: relative;
+    left: 500px;
+    bottom: 47px;
+}
+#Women{
+    font-family: Kumbh Sans;
+    font-size: 15px;
+    position: relative;
+    left: 650px;
+    bottom: 79px;
+}
+#About{
+    font-family: Kumbh Sans;
+    font-size: 15px;
+    position: relative;
+    left: 780px;
+    bottom: 110px;
+}
+#Contact{
+    font-family: Kumbh Sans;
+    font-size: 15px;
+    position: relative;
+    left: 960px;
+    bottom: 140px;
+}
+#hr {
+    position: relative;
+    bottom: 120px;
+}
+#cart1 {
+    position: relative;
+    left: 1200px;
+    bottom: 220px;
+}
+#image-avatar{
+    position: relative;
+    left: 1200px;
+    bottom: 190px;
+    width: 70px;
+}
+#product1 {
+    border-radius: 20px;
+    width: 380px;
+    position: relative;
+    left: 450px;
+}
+#company {
+    position: relative;
+    left: 900px;
+    bottom: 320px;
+    font-family: Kumbh Sans;
+}
+#text1 {
+    position: relative;
+    left: 900px;
+    bottom: 320px;
+    font-family: Kumbh Sans;
+    font-size: 30px;
+}
+#text2 {
+    position: relative;
+    left: 900px;
+    bottom: 320px;
+    font-family: Kumbh Sans;
+    font-size: 13px;
+}
+#N125{
+    position: relative;
+    left: 900px;
+    bottom: 320px;
+    font-family: Kumbh Sans;
+    font-size: 23px;
+}
+#N50 {
+    border-radius: 8px;
+    border: solid black;
+    font-family: Kumbh Sans;
+    width: 30px;
+    height: 20px;
+    color: white;
+    background-color: black;
+    position: relative;
+    left: 1000px;
+    bottom: 370px;
+}
+#N250{
+    position: relative;
+    left: 900px;
+    bottom: 390px;
+    font-family: Kumbh Sans;
+    font-size: 23px;
+}
+#product12{
+    border-radius: 8px;
+    width: 90px;
+    position: relative;
+    left: 450px;
+    bottom: 390px;
+}
+#product2{
+    border-radius: 8px;
+    width: 90px;
+    position: relative;
+    left: 450px;
+    bottom: 390px;
+    transition: 5px;
+}
+
+#product3{
+    border-radius: 8px;
+    width: 90px;
+    position: relative;
+    left: 450px;
+    bottom: 390px;
+}
+#product4{
+    border-radius: 8px;
+    width: 90px;
+    position: relative;
+    left: 450px;
+    bottom: 390px;
+}
