@@ -178,10 +178,26 @@
     font-family: Kumbh Sans;
     
 }
-#cart {
+.cart {
+    border: solid #FF7D1B 8px;
     background-color: #FF7D1B;
-    border-radius: 20px;
-    border: solid black;
-    width: 50px;
-    height: 20px;
+    border-radius: 8px;
+    width: 140px;
+    height: 40px;
+    font-family: Kumbh Sans;
+    position: relative;
+    left: 1100px;
+    bottom: 650px;
+
+}
+
+.add {
+    position: relative;
+    left: 50px;
+    font-family: Kumbh Sans;
+
+}
+#crt {
+    position: relative;
+    bottom: 40px;
 }
