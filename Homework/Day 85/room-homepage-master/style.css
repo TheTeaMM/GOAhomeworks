@@ -1,0 +1,13 @@
+#img1 {
+    position: relative;
+    right: 75px;
+    bottom: 20px;
+}
+#logo1 {
+   position: relative;
+   left: 100px;
+   bottom: 300px;
+}
+body {
+    background-color: black;
+}

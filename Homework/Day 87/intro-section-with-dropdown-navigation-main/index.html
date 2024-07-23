@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<img src="images/logo.svg" id="logo">
+   <!-- <p class="Feature">Features</p> -->
+   <!-- <div class="div1">
+    <p class="p"><img src="images/icon-todo.svg">Todo List</p>
+    <p class="p"><img src="images/icon-calendar.svg">Calendar</p>
+    <p class="p"><img src="images/icon-reminders.svg">Reminders</p>
+    <p class="p"><img src="images/icon-planning.svg">Planning</p>
+   </div> -->
+   <div class="dropdown">
+    <button onclick="openDropdown()" class="dropbtn">Features</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#todo"><img src="images/icon-todo.svg">Todo List</a>
+      <a href="#calendar"><img src="images/icon-calendar.svg">Calendar</a>
+      <a href="#reminders"><img src="images/icon-reminders.svg">Reminders</a>
+      <a href="#planning"><img src="images/icon-planning.svg">Planning</a>
+    </div>
+  </div>
+  <div class="dropdowntwo">
+    <button onclick="openDropdown2()" class="dropbtntwo">Company</button>
+    <div id="myDropdowntwo" class="dropdown-contenttwo">
+      <a href="#history">History</a>
+      <a href="#ourteam">Our Team</a>
+      <a href="#blog">Blog</a>
+    </div>
+  </div>
+  <p class="p" id="carrer">Carrers</p>
+  <p class="p" id="about">About</p>
+
+</header>
+
+  <p class="p2">Make<br> Remote Work</p>
+  <p class="Get"> Get your team in sync, no matter your location.<br> Streamline processes, 
+  create team rituals, and<br> watch productivity soar.</p>
+  <div class="learn">
+    <p class="learn2">Learn more</p>
+  </div>
+  <img src="images/image-hero-desktop.png" id="img">
+
+  <img src="images/client-databiz.svg" class="imgs">
+  <img src="images/client-audiophile.svg"  class="imgs">
+  <img src="images/client-meet.svg"  class="imgs">
+  <img src="images/client-maker.svg"  class="imgs">
+  <script src="script.js"></script>
+</body>
+</html>
