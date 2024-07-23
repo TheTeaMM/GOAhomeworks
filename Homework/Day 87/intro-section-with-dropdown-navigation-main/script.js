@@ -14,14 +14,15 @@ function openDropdown() {
     }
   }
 
-  function openDropdowntwo() {
-    document.getElementById("myDropdown").classList.toggle("show");
+  function openDropdown2() {
+    document.getElementById("myDropdowntwo").classList.toggle("show");
   }
-  
+
+
 
   window.onclick = function(event) {
-    if (!event.target.matches('.dropbtntwo')) {
-      const dropdowns = document.getElementsByClassName("dropdown-contenttwo");
+    if (!event.target.matches('.dropbtn')) {
+      const dropdowns = document.getElementsByClassName("dropdown-content");
       for (let i = 0; i < dropdowns.length; i++) {
         const openDropdown = dropdowns[i];
         if (openDropdown.classList.contains('show')) {
