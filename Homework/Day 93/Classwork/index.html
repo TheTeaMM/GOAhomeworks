@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classwork About Animations</title>
+    <style>
+
+        body {
+            background-color: rgb(162, 86, 86);
+        }
+
+        .container {
+            background-color: blueviolet;
+            width: 350px;
+            height: 250px;
+            padding: 5px;
+            position: relative;
+             
+        }
+
+        .box {
+            background-color: blue;
+            width: 100px;
+            height: 100px;
+            position: absolute; 
+            display: flex;
+            justify-content: center;
+        }
+
+        @media only screen and (max-width: 900px) {
+            .container {
+            width: 320px;
+            height: 250px;
+
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+    <script>
+        let t = setInterval(move, 20);
+        let p = 0;
+        let box = document.getElementsByClassName("box")[0];
+
+        function move() {
+            if (p >= 250) {
+                clearInterval(t);
+                box.style.left = 0;
+        
+            } 
+            else {
+                p++;
+                box.style.left = p + "px";
+            }
+        }
+    </script>
+</body>
+</html>
