@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Functions</title>
+</head>
+<body>
+    <h1>Date Functions</h1>
+
+    <!-- 1 -->
+    <h2>1. Current Date and Time</h2>
+    <button onclick="showCurrentDateTime()">Show Current Date and Time</button>
+    <p id="currentDateTime"></p>
+
+    <!-- 2 -->
+    <h2>2. Difference Between Two Dates</h2>
+    <input type="date" id="startDate">
+    <input type="date" id="endDate">
+    <button onclick="calculateDateDifference()">Calculate Difference</button>
+    <p id="dateDifference"></p>
+
+    <!-- 3 -->
+    <h2>3. Add Days to a Date</h2>
+    <input type="date" id="baseDate">
+    <input type="number" id="daysToAdd" placeholder="Days to Add">
+    <button onclick="addDays()">Add Days</button>
+    <p id="newDate"></p>
+
+    <!-- 4 -->
+    <h2>4. Day of the Week</h2>
+    <input type="date" id="dayDate">
+    <button onclick="findDayOfWeek()">Get Day of the Week</button>
+    <p id="dayOfWeek"></p>
+
+    <!-- 5 ? -->
+     <p>i have no idea how to do 5</p>
+    <script>
+        // 1
+        function showCurrentDateTime() {
+            const now = new Date();
+            const year = now.getFullYear();
+            const month = String(now.getMonth() + 1).padStart(2, '0');
+            const day = String(now.getDate()).padStart(2, '0');
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+            
+            const formattedDateTime = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+            document.getElementById('currentDateTime').textContent = formattedDateTime;
+        }
+
+        // 2
+        function calculateDateDifference() {
+            const startDate = new Date(document.getElementById('startDate').value);
+            const endDate = new Date(document.getElementById('endDate').value);
+            
+            const timeDifference = endDate - startDate;
+            const dayDifference = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+            
+            document.getElementById('dateDifference').textContent = `Difference: ${dayDifference} days`;
+        }
+
+        // 3
+        function addDays() {
+            const baseDate = new Date(document.getElementById('baseDate').value);
+            const daysToAdd = parseInt(document.getElementById('daysToAdd').value);
+            
+            baseDate.setDate(baseDate.getDate() + daysToAdd);
+            const newDate = baseDate.toISOString().split('T')[0];
+            
+            document.getElementById('newDate').textContent = `New Date: ${newDate}`;
+        }
+
+        // 4
+        function findDayOfWeek() {
+            const date = new Date(document.getElementById('dayDate').value);
+            const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+            
+            const dayOfWeek = daysOfWeek[date.getDay()];
+            document.getElementById('dayOfWeek').textContent = `Day of the Week: ${dayOfWeek}`;
+        }
+
+    </script>
+</body>
+</html>

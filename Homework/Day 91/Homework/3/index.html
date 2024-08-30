@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Wikipedia</title>
+    <style>
+        .content {
+            display: none;
+        }
+        .content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mini Wikipedia</h1>
+    <nav>
+        <a href="#" onclick="showContent('about')">About</a> | 
+        <a href="#" onclick="showContent('history')">History</a> | 
+        <a href="#" onclick="showContent('contact')">Contact</a>
+    </nav>
+
+    <div id="about" class="content">
+        <h2>About</h2>
+        <p>This is the About section. It contains information about the topic.</p>
+    </div>
+    <div id="history" class="content">
+        <h2>History</h2>
+        <p>This is the History section. It contains historical details.</p>
+    </div>
+    <div id="contact" class="content">
+        <h2>Contact</h2>
+        <p>This is the Contact section. It contains contact information.</p>
+    </div>
+
+    <script>
+        function showContent(id) {
+            const contents = document.querySelectorAll('.content');
+            contents.forEach(content => content.classList.remove('active'));
+            document.getElementById(id).classList.add('active');
+        }
+    </script>
+</body>
+</html>

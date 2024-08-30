@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Example</title>
+    <style>
+        #result {
+            font-size: 20px;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>DOM Manipulation Example</h1>
+    <button id="resetTextButton">Reset Text</button>
+    <p id="result">This is the original text.</p>
+    <input type="text" id="userInput" placeholder="Enter new text">
+    <button id="updateTextButton">Update Text</button>
+
+    <script>
+        
+        const resetTextButton = document.getElementById('resetTextButton');
+        const resultParagraph = document.getElementById('result');
+        const userInput = document.getElementById('userInput');
+        const updateTextButton = document.getElementById('updateTextButton');
+
+       
+        resetTextButton.addEventListener('click', function() {
+            resultParagraph.textContent = 'The text has been reseted!';
+        });
+
+        
+        updateTextButton.addEventListener('click', function() {
+            const newText = userInput.value;
+            resultParagraph.textContent = newText;
+            userInput.value = ''; 
+        });
+    </script>
+</body>
+</html>

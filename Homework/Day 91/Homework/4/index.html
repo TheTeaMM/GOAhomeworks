@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Display and Remove Example</title>
+</head>
+<body>
+    <h1>Text Display and Remove Example</h1>
+    <button onclick="showText()">Show Text</button>
+    <button onclick="hideText()">Hide Text</button>
+    <p id="displayText" style="display: none;">This is the text to be shown and hidden.</p>
+
+    <script>
+        function showText() {
+            document.getElementById('displayText').style.display = 'block';
+        }
+
+        function hideText() {
+            document.getElementById('displayText').style.display = 'none';
+        }
+    </script>
+</body>
+</html>

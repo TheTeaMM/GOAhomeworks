@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Text Example</title>
+</head>
+<body>
+    <h1>Add Text Example</h1>
+    <button onclick="addText()">Add Text</button>
+    <p id="textContainer">This is the original text.</p>
+
+    <script>
+        function addText() {
+            const container = document.getElementById('textContainer');
+            container.textContent += ' New text added!';
+        }
+    </script>
+</body>
+</html>

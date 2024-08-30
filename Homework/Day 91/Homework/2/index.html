@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Text Example</title>
+</head>
+<body>
+    <h1>Remove Text Example</h1>
+    <button onclick="removeText()">Remove Text</button>
+    <p id="textContainer">This is the text to remove.</p>
+
+    <script>
+        function removeText() {
+            const container = document.getElementById('textContainer');
+            container.textContent = '';
+        }
+    </script>
+</body>
+</html>
