@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highlight Text</title>
+</head>
+<body>
+    <p id="text">This is a sample text where we want to highlight a specific word.</p>
+
+    <script>
+        function highlightWord(word) {
+            const p = document.getElementById('text');
+            const regex = new RegExp(`(${word})`, 'gi');
+            p.innerHTML = p.innerHTML.replace(regex, '<mark>$1</mark>');
+        }
+
+        highlightWord('highlight');
+    </script>
+</body>
+</html>
