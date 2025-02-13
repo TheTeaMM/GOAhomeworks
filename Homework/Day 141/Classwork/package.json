@@ -1,0 +1,17 @@
+{
+  "name": "classwork",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "scripts": {
+    "dev": "npm run dev --prefix client",
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.0.6",
+    "tailwindcss": "^4.0.6"
+  }
+}
